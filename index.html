@@ -3,13 +3,26 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap</title>
+    <title>Azure | Bootcamp</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
+      integrity="sha384-eoTu3+HydHRBIjnCVwsFyCpUDZHZSFKEJD0mc3ZqSBSb6YhZzRHeiomAUWCstIWo"
+      crossorigin="anonymous"
+    />
+
+    <!--External Css File-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Favicons-->
+    <link rel="icon" type="image/png" href="./img/showcase.png" sizes="96x96">
+
   </head>
   <body>
     <!--Navbar-->
@@ -41,25 +54,24 @@
     </nav>
 
     <!--Showcase Area-->
-    <section class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+    <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
       <div class="conatainer">
-        <div class="d-sm-flex align-items-center justify-content-between">
+        <div class="d-sm-flex mx-lg-5 justify-content-between">
           <div>
-
-          
-          <h1> Want to
-            Become a <span class="text-warning"><br>Azure Devops Engineer</span>  
-          </h1>
-          <p class="lead my-4">
-            Microsoft Azure, often referred to as Azure, is a cloud computing service operated by Microsoft for application management via Microsoft-managed data centers. 
-
-          </p>
-          <button class="btn btn-primary btn-lg">
-            Start The Enrollment
-          </button>
+            <h1>
+              Want to Become a
+              <span class="text-warning"><br />Azure Devops Engineer</span>
+            </h1>
+            <p class="lead my-4">
+              Microsoft Azure, often referred to as Azure, is a cloud computing
+              service operated by Microsoft for application management via
+              Microsoft-managed data centers.
+            </p>
+            <button class="btn btn-primary btn-lg">Start The Enrollment</button>
           </div>
-          <img  class="img-fluid w-50 " src="img/showcase.png" alt="">
-
+          <img class="img-fluid w-50" src="img/showcase.png" alt="" />
         </div>
       </div>
     </section>
@@ -67,13 +79,77 @@
     <!--Newsletter-->
     <section class="bg-primary text-light p-5">
       <div class="container">
-        <div class="d-md-flex justify-content-between align-items-center">  
-          <h3 class="mb-3 mb-md-0">Sign Up For Our Latest Updates</h3>
-
-        
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3 class="mb-3 mb-md-0">SignUp For Our Latest Updates</h3>
+          <div class="input-group news-input-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Input you email address"
+              aria-label="Recipient's username with  button addons"
+            />
+            <button class="btn btn-dark" type="button">Signup</button>
+          </div>
         </div>
       </div>
-
+    </section>
+    <!-- Boxes -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-laptop"></i>
+                </div>
+                <h3 class="card-title mb-3">Virtual</h3>
+                <p class="card-description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Dolores accusantium fugiat optio fuga excepturi deserunt
+                  totam? Excepturi, aliquam id! Quia cumque consequuntur odit
+                  repellat enim cupiditate veniam ullam dolores porro.
+                </p>
+                <div href="#" class="btn btn-primary">Read More</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-wifi"></i>
+                </div>
+                <h3 class="card-title mb-3">Networks</h3>
+                <p class="card-description">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Dolores accusantium fugiat optio fuga excepturi deserunt
+                  totam? Excepturi, aliquam id! Quia cumque consequuntur odit
+                  repellat enim cupiditate veniam ullam dolores porro.
+                </p>
+                <div href="#" class="btn btn-secondary">Read More</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-bug"></i>
+                </div>
+                <h3 class="card-title mb-3">Securitty System</h3>
+                <p class="card-description">
+                  Lorem ipsum dolor sit aamet, consectetur adipisicing elit.
+                  Dolores accusantium fugiat optio fuga excepturi deserunt
+                  totam? Excepturi, aliquam id! Quia cumque consequuntur odit
+                  repellat enim cupiditate veniam ullam dolores porro.
+                </p>
+                <div href="#" class="btn btn-dark">Read More</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <script
