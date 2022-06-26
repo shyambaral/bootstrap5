@@ -4,9 +4,14 @@ body::before{
     content: '' ;
     height: '60px';
 }
+#map {
+    
+    width: 100%;
+}
 
 @media (min-width: 768px) {
     .nes-input{
         width: 50%;
     }
 }
+
